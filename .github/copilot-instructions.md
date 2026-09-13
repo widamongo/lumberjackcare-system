@@ -1,0 +1,1 @@
+When analyzing PDFs in this repository, prefer text extraction workflows (`pdftotext`, `pypdf`, or `pymupdf` text output) and avoid calling `view` on generated image files under `/tmp` (for example `/tmp/*_pdf_images/*.png`).
